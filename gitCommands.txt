@@ -24,7 +24,7 @@
 	git checkout -b newbranchName = create as wel as swtich to that new brach at the same time
 20) adding local files to github
 	first add ssh key, if you are using first time
- i) git add remote origin urlOfSSH/urlOfHTTPS
+ i) git remote add  origin urlOfSSH/urlOfHTTPS
  ii) git push origin master
 
 21) git clone url folderName =  file wil be clone into flderName
