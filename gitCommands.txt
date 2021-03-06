@@ -1,0 +1,32 @@
+1) git add. or git add -A = to addd all file at the once
+2) git commit -m "your message"
+3) git commit -a -m "your message" = to add all files and commit simultaneously
+4) git checkout filename = file match with your last commit . i.e file will be recovered, if you mistaleky done some modification in the file 
+5) git checkout -f = macth with last commit but for all the files you have 
+6) git log = show all the commits
+7) git log -p -Number = shows specified number of commits
+	press q to quit!
+8) clear = to clear the terminal
+9) git diff = match the working diretory with staging area , if they are same it will show nothing
+	e.g = if we change <body> to <body2> then diff will show the difference !
+10) git diff --staged = compare staging are to the last commit 
+	e.g = if we change <body> to <body ammu> , then it will show the difference !
+11) ls= shows all the list of files/folders of the current dierctory
+12) touch filename  = to create a new file through git command
+13) git rm --cached filename = remove the file from staging area, it will make the file untracked. we can again add it using commmand
+14) git rm filename = delete the existence of file
+15) git branch newBranchName = create a new branch
+16) git chekout branchName = switch to the branchname
+17) git branch = show you all branches 
+18) to merge other branches to the master branch , first switch to the master branch then write command
+	git merger otherBranchname  = it will merge the other branch files/chamges to the master branch
+19) to create a new branch and also swtich to that branch at the same time, we write command
+	git checkout -b newbranchName = create as wel as swtich to that new brach at the same time
+20) adding local files to github
+	first add ssh key, if you are using first time
+ i) git add remote origin urlOfSSH/urlOfHTTPS
+ ii) git push origin master
+
+21) git clone url folderName =  file wil be clone into flderName
+OR
+git clone url = it will clone the file with its default folder name
